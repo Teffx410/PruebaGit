@@ -1,0 +1,40 @@
+$ git config --global user.name 
+	Prints associated local user
+$ git config --global user.email
+	Prints associated local email
+$ git config --global user.email "xxjuanmanderxx@gmail.com"
+	Sets email as local associated email
+$cd Desktop/
+	Move to desktop
+$ mkdir PruebaGit
+	Create folder with given name in that location
+$cd PruebaGit
+	Move to that folder located in previous location
+$ git init
+	Created repository in location
+	Initialized empty Git repository in C:/Users/USER/Desktop/PruebaGit/.git/
+$ git branch -M main
+	Rename "Master" branch to "Main" branch
+$ git status
+	Prints the status of the files in the local folder
+$ git add .
+	Saves changes for further commits
+$ git commit -m "Initial commit"
+	Make a commit with a message (-m)
+$ git remote add origin https://github.com/Teffx410/PruebaGit.git
+	Link local folder with the GitHub repository
+$ git push --set-upstream origin main
+	Push and created branch in GitHub with given name (in this case "main")
+$ git push
+	Push last commit
+$ git fetch
+	Search for changes in the GitHub repository
+$ git pull
+	Bring back new/modified folders from the GitHub repository
+
+
+
+
+	
+
+
